@@ -39,7 +39,7 @@ evaluation/
 
 ## Installation & Setup
 
-git clone https://github.com/ShrugalVinod/football-ai-project.git
+git clone https://github.com/ShrugalVinod/matchmind-ai.git
 cd football-ai-project
 
 pip install -r requirements.txt
