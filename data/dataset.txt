@@ -1,1 +1,6 @@
+Dataset Name: SoccerNet
 
+Source URL: https://www.soccer-net.org/
+
+Description:
+SoccerNet is a large-scale football video understanding dataset designed for research in event detection, player tracking, and re-identification. It contains professional broadcast football match data with annotated events such as goals, cards, and substitutions, along with tracking information and precomputed visual embeddings. The dataset is widely used in computer vision research for developing AI models for sports analysis, including event spotting and tactical understanding systems.
