@@ -1,53 +1,46 @@
-# Football Event Detection
 
-## Overview
+# MatchMind AI
 
-This project builds a machine learning model to detect football events such as goals, substitutions, and cards using the SoccerNet dataset. It uses deep learning models to process video embeddings and learn event patterns.
+## What is this project?
+MatchMind AI is an AI-based football analytics system that automatically detects important events in football matches such as goals, cards, and substitutions using machine learning models. It is designed to help analysts, coaches, and researchers understand matches faster and more efficiently.
 
-Future work includes adding player tracking data for tactical analysis.
+---
+
+## The Problem
+Football matches generate large and complex visual data that is difficult to analyze manually in real time. Important events such as goals, fouls, and substitutions can be missed or take significant time to review. There is a need for an automated system that can process match data and accurately identify key moments.
+
+---
+
+## My Solution
+This project uses a Transformer-based deep learning model trained on SoccerNet embeddings to detect football events. The system processes match sequences and learns temporal patterns to identify events, track player movement, and recognize player identities across frames.
+
+---
+
+## Results
+A baseline Transformer model has been successfully implemented and tested on SoccerNet data. Initial experiments show stable training performance and improving accuracy in event detection, with further improvements expected after full training and optimization.
+
+---
+
+## Repository Structure
+- /code — Model training and evaluation scripts  
+- /docs — Research paper and pitch deck  
+- /data — Dataset references (SoccerNet not included)  
+- /results — Graphs, charts, and outputs  
 
 ---
 
 ## Dataset
-
-- SoccerNet dataset  
-- Event annotations  
-- Precomputed video embeddings  
+SoccerNet Dataset  
+https://www.soccer-net.org/
 
 ---
 
-## Method
-
-- Preprocess embeddings and labels  
-- Train deep learning models (TCN / Transformers)  
-- Perform event classification  
-- Evaluate using Precision, Recall, F1-score, and mAP  
+## Project Website
+Not available yet
 
 ---
 
-## Project Structure
-data/
-models/
-preprocessing/
-training/
-evaluation/
-
-
----
-
----
-
-## Installation & Setup
-
-git clone https://github.com/ShrugalVinod/matchmind-ai
-cd football-ai-project
-
-pip install -r requirements.txt
-
-downloader = SoccerNetDownloader(LocalDirectory="data/")
-downloader.password = "your_password"
-downloader.downloadDataTask(task="spotting")
-
-python training/train.py
-
-python evaluation/evaluate.py
+## Contact
+Shrugal Vinod  
+Indus International School Bangalore  
+Email: shrugalvinod874@gmail.com
